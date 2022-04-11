@@ -1,0 +1,72 @@
+body {
+    font-family: arial;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 2%;
+}
+
+/* header {
+    display: flex;
+} */
+
+main {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#logo {
+    margin: 0px;
+}
+
+
+.navbar {
+    display: inline;
+    margin: 0;
+}
+
+.navbar > a {
+    color:white;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-align: right;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    display: flex
+}
+
+.latest-news {
+    margin-left: 5%;
+}
+
+
+.comment-box-container {
+    width: 100%;
+    text-align: right;
+}
+
+textarea {
+    width: 100%;
+}
+
+.profile-picture {
+    width: 15%;
+}
+
+.page-footer {
+    background: dodgerblue;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+.headline-text {
+    margin-left: 2%;
+}
